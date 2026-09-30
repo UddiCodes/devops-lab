@@ -23,5 +23,5 @@ jobs:
           run: flake8 app.py calculator.py test_calculator.py --max-line-length=100
         
         - name: Run tests with pytest
-          run: pytest-v
+          run: pytest -v
       
